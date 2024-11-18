@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+.layout-containerd {
+    background: url("../img/login-img.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+}
+
+.left-layout{
+    width: 60%;
+    
+ 
+}
+.right-layout {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    min-width: 30rem;
+    width: 40%;
+    box-shadow: -1px 2px 6px 0px rgba(44,119,189,0.73);
+    -webkit-box-shadow: -1px 2px 6px 0px rgba(44,119,189,0.73);
+    -moz-box-shadow: -1px 2px 6px 0px rgba(44,119,189,0.73);
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.789);
+    position: relative;
+}
+.login-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.login-form >div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.logo-container {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin-top: 6rem;
+   margin-bottom: 2rem;
+}
+
+.login-greeting{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.login-greeting >div {
+    width: 100%;
+}
+
+.logo {
+width: 25rem;
+height: auto;
+}
+
+.text {
+    padding: .85rem;
+    border-radius: 3px;
+    border:0px solid black;
+    font-size: medium;
+    color: rgb(12, 16, 23);
+}
+
+.submit-btn {
+    padding:.8rem;
+    border: 0px;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    background-color: #025f94;
+    transition: 200ms ease;
+    cursor: pointer;
+    /* background-size:200% 100%;
+    background:linear-gradient(to right, #025f94 50%, #012f4a 50%);
+    background-size:200% 100%;
+    background-position:0 0;
+    transition:background-position .2s ease-out; */
+}
+
+.submit-btn-d {
+    padding:.8rem;
+    border: 0px;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    background-color: #012f4a;
+    transition: 200ms ease;
+    cursor: pointer;
+    /* background-size:200% 100%;
+    background:linear-gradient(to right, #025f94 50%, #012f4a 50%);
+    background-size:200% 100%;
+    background-position:0 0;
+    transition:background-position .2s ease-out; */
+}
+
+.warning-alert {
+    color: red;
+}
+
+.submit-btn:hover{
+    background-color: #012f4a;
+    /* background-position:-100% 0; */
+}

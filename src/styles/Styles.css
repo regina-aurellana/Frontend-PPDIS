@@ -1,0 +1,589 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.App {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ========= Dashboard Layout=============== */
+.layout-container {
+  min-height: 100vh;
+}
+
+.sidenav-menu {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.footer-nav {
+  text-align: center;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-settings {
+  font-family: "Poppins", sans-serif;
+}
+
+.main-component-container {
+  padding: 24px;
+  background: #fff;
+}
+
+/* =========== Projects Page ================ */
+.ant-table-thead {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.ant-table-row {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.ant-alert-message {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.responsive-table {
+  overflow-x: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .ant-table td {
+    white-space: nowrap;
+  }
+}
+
+.btn-create-b3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.ant-modal-title,
+.ant-input,
+.ant-select-selection-placeholder,
+.ant-btn,
+.ant-select-selection-item,
+.OptionItems,
+.ant-tag {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.ant-form-item {
+  margin-bottom: 5px !important;
+}
+
+.field-label {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.ModalTitle {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0px;
+}
+
+.swal2-title {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 25px !important;
+  margin-bottom: 0px !important;
+}
+
+.swal2-html-container {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 15px !important;
+  margin-top: 0px !important;
+}
+
+/* 
+  ========== filepond =========== */
+.filepond--drop-label {
+  background-color: #fff !important;
+  border: 1px dashed #7867f1;
+  font-family: "Poppins", sans-serif !important;
+  color: #7867f1 !important;
+}
+
+.filepond--label-action {
+  color: #4a35ee !important;
+  font-weight: bold;
+  font-size: 20px !important;
+  text-decoration: none !important;
+}
+
+/* ========= alignment ========== */
+.parent-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.align-left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* ========== DUPA Detailed ============ */
+.ant-descriptions-item {
+  padding-bottom: 0px !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.ant-descriptions-title {
+  text-align: center;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px !important;
+}
+
+.dupa-table-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.dupa-work-items-name {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.dupa-sub-total span {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.dupa-total-direct-cost {
+  border: #f2f2f2 solid 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dupa-total-direct-cost p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.bread-crumb {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* ====== Measurement ============== */
+.measurement-field {
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.header-takeoff,
+.takeoff-proj,
+.dupa-list-proj {
+  font-family: "Poppins", sans-serif !important;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.dupa-details {
+  font-family: "Poppins", sans-serif !important;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.quantity-proj {
+  font-family: "Poppins", sans-serif !important;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.ant-tabs-tab-btn {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* ====== Take off ============== */
+.card-calculator {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #d9d9d9;
+  padding: 5px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.calculator-button {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  color: #000;
+}
+
+.operator-name {
+  font-size: 20;
+  margin-top: -5px;
+}
+
+.calculator-name {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* TAKE OFF CSS */
+
+.Take-off-table-title {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.dupa-description {
+  margin-bottom: 0px;
+}
+
+.dupa-formula {
+  margin-top: 0px;
+}
+
+.note-title-modal {
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 12px;
+  color: tomato;
+  font-style: italic;
+}
+
+.title-takeoff-modal {
+  font-family: "Poppins", sans-serif !important;
+  margin-bottom: 0px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.TableActionBtn {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.TableActionBtn:hover {
+  background-color: #f5f5f5;
+}
+
+/* ===================== TAKE OFF CSS ===========================  */
+
+.no-table {
+  display: flex;
+  justify-content: center;
+  font-size: 42px;
+  color: #c1d0b5;
+}
+
+.table-input {
+  display: inline-block;
+  width: 100%;
+  padding: 6px 11px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.table-input:focus {
+  outline: none;
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.takeoff-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.takeoff-table-row-header {
+  margin-bottom: 10px;
+}
+
+.takeoff-table th,
+.takeoff-table td {
+  padding: 12px 16px;
+  border: 1px solid #e8e8e8;
+}
+
+.takeoff-table th {
+  background-color: #f5f5f5;
+  font-weight: 500;
+  text-align: left;
+}
+
+.takeoff-table td {
+  background-color: #ffffff;
+}
+
+.takeoff-table tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.takeoff-table tbody tr:hover {
+  background-color: #e6f7ff;
+}
+
+.takeoff-table-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.success-button {
+  color: #539165;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table-title-container {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #b8c7ca;
+  padding: 10px;
+}
+
+.takeoff-dupa-comp-name {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.item-code-container {
+  margin-top: 5px;
+}
+
+.name-container {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: end;
+}
+
+/* Table */
+.take-off-table-component {
+  margin-bottom: 20px;
+}
+
+.table-title {
+  font-size: 18px;
+  color: #333;
+}
+
+.project-table {
+  /* Define styles for your table */
+  /* Example: */
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Define specific colors for each button */
+.btn-add-contingency {
+  border: 0;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 0;
+  padding: 0;
+}
+
+.btn-add-row {
+  background-color: #539165;
+  color: white;
+}
+
+.btn-delete-table {
+  background-color: #d9534f;
+  color: white;
+}
+
+/* ===== Empty Compnent ======= */
+
+.ant-empty-description {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.table-empty {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .table-empty {
+    left: 50%;
+    transform: none;
+  }
+
+  .takeoff-table-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .takeoff-table-actions button {
+    margin-bottom: 10px;
+  }
+}
+
+.total-title-table-field {
+  display: flex;
+  justify-content: end;
+}
+
+.table-total-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.p-y-spacing {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.takeoff-table-footer {
+  background-color: #f5f5f5 !important;
+  border: 1px solid #e8e8e8 !important;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.takeoff-table-footer span {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* ===== table takeoff ============== */
+.dupa-description,
+.dupa-formula {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.takeOff_table_total,
+.contingency,
+.total-say {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.total-value {
+  font-family: "Poppins", sans-serif !important;
+  font-style: italic;
+}
+
+/* =========TAKEOFF PREVIEW CSS============== */
+
+.preview-sow-title {
+  background-color: #ffff00;
+  margin: 5px 5px 0px 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.preview-desc {
+  background-color: #70ad47;
+  margin: 5px 5px 15px 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.prev-footer-label {
+  text-align: right;
+  border: 1px solid #f5f5f5;
+}
+
+.prev-footer-value {
+  text-align: right;
+  border: 1px solid #f5f5f5;
+}
+
+.prev-container {
+  margin: 20px;
+}
+
+.prev-item-no {
+  margin-right: 0px;
+}
+
+.btn-import-file {
+  background-color: #fff;
+  color: #0038a8;
+}
+
+/* PREVIEW ABC CSS */
+.preview-abc {
+  text-transform: uppercase;
+}
+
+.abc-title-container {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+@media print {
+  .action-column {
+    display: none !important;
+  }
+}
+
+@font-face {
+  font-family: 'Monotype-Corsiva';
+  src: url('/src/fonts/Monotype-Corsiva.ttf');
+}
+
+.font-corsiva {
+  font-family: 'Monotype-Corsiva';
+  font-style: italic;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.font-arial {
+  font-family: 'Arial';
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-24 {
+  font-size: 34px;
+}
+
+.fw-800 {
+  font-weight: 800;
+}

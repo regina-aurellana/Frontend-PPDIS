@@ -1,0 +1,89 @@
+/* src/CustomFileInput.css */
+.custom-file-input {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+    position: relative;
+    width: 100%;
+    /* Ensure the component fills the container width */
+    box-sizing: border-box;
+    /* Include padding and border in the width */
+}
+
+.file-input {
+    display: none;
+}
+
+.custom-file-input:hover {
+    background-color: #f0f8ff;
+}
+
+.custom-file-input.loading {
+    cursor: not-allowed;
+}
+
+.file-list {
+    margin-top: 10px;
+}
+
+.file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    position: relative;
+    width: 100%;
+    /* Ensure file items span the width */
+    box-sizing: border-box;
+    /* Include padding and border in the width */
+}
+
+.file-item span {
+    flex: 1;
+    white-space: nowrap;
+    /* Prevent file names from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.file-item button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.file-item button:hover {
+    background-color: #ff1a1a;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    /* Light grey */
+    border-top: 4px solid #007bff;
+    /* Blue */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
